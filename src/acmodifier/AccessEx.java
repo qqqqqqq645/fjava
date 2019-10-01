@@ -16,6 +16,7 @@ class Sample {
 	public int a;
 	private int b;
 	int c;
+	int d;
 }
 
 class Sample2 extends Sample{
