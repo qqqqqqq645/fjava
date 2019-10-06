@@ -14,5 +14,6 @@ public class StringEx {
 		System.out.println(cnt);
 		System.out.println(aa.reverse());
 		System.out.println(aa);
+		
 	}
 }

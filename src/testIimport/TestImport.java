@@ -38,6 +38,7 @@ public class TestImport {
 			System.out.println(ffds.getClass());
 			char data[] = {'a','b','c','d'};
 			String kk = "abcd";
+			System.out.println(data.length);
 			System.out.println(data.getClass());
 			System.out.println(ffds[0][2]);
 			System.out.println(data);
@@ -49,6 +50,11 @@ public class TestImport {
 			for(int qqbk :jjjj) {
 				System.out.println(qqbk);
 			}
+			
+			int kkab [] [] = {{},{},{}};
+			kkab[0] = new int [5];
+			System.out.println("kkab[0] = "+kkab[0].length);
+			System.out.println("kkab= "+kkab.length);
 	}
 
 }
