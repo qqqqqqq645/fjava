@@ -19,7 +19,7 @@ public class Bector {
 			System.out.println("벡터의 현재 용량 : " + v.capacity());
 			v.remove(2);
 			v.add(2,3);
-	
+		
 			
 			for(int i=0;i<v.size();i++) {
 				int n=v.get(i);
