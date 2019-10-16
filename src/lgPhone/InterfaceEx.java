@@ -3,6 +3,8 @@ interface PhoneInterface {
 	final int TIMEOUT = 10000;
 	void sendCall();
 	void receiveCall();
+	private void gggg() {
+	}
 	default void printLogo() {
 		System.out.println("** Phon ***");
 	}
@@ -19,7 +21,9 @@ class LgPhone implements PhoneInterface {
 		// TODO Auto-generated method stub
 		System.out.println("짜잔");
 		
+		
 	}
+	
 
 	@Override
 	public void receiveCall() {
