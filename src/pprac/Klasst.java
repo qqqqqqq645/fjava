@@ -11,6 +11,9 @@ public class Klasst {
 		ss.length();
 		int arr [][] = {{},{},{}};
 		System.out.println(arr[0].length);
-		
+		char charue = 'a';
+		String stringu = "A";
+		char vai = (char)stringu.charAt(0);
+		System.out.println(vai);
 		}
 }

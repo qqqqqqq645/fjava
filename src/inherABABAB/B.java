@@ -2,6 +2,7 @@ package inherABABAB;
 
 public class B extends A {
 	public B () {
+		s="asdf";
 		super("","");
 		//this("");
 		System.out.println("Im B");

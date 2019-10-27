@@ -4,6 +4,7 @@ public class A {
 	String s;
 	String d;
 	public A() {
+		
 		this("","");
 		System.out.println("I'm A");
 	}

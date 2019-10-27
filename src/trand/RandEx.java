@@ -27,6 +27,11 @@ public class RandEx {
 		while((a==b) || (a==c) || (a==d) || (b==d) || (b==c) || (c==d) );
 		System.out.println("cnt = "+cnt);
 		System.out.println("a = "+a+" b = "+b+" c = "+c+" d = "+d);
+		
+		Float asdf = Float.valueOf((float) 1.5);
+		asdf.floatValue();
+		Character sdfg = Character.valueOf('b');
+		sdfg.charValue();
 	}
 
 }
