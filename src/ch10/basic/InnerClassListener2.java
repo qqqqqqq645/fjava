@@ -9,23 +9,25 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 
 public class InnerClassListener2 extends JFrame {
-	//ÀÌ³ÊÅ¬·¡½º
+	//ï¿½Ì³ï¿½Å¬ï¿½ï¿½ï¿½ï¿½
 	JButton btn1;
 	class MyActionListener implements ActionListener {
 		 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(btn1.getText().equals("Action")) 
-					btn1.setText("¾×¼Ç"); 
+					btn1.setText("ì•¡ì…˜"); 
 				else
 					btn1.setText("Action");
-
+				
+				InnerClassListener2.this.setTitle("asdf");
+				setTitle("fdsa");
 			}
 
 		}
 	
 	InnerClassListener2(){
-		setTitle("¸®½º³Ê-µ¶¸³");//»ý·«°¡´É
+		setTitle("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½");//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
